@@ -65,7 +65,12 @@
         <connection>scm:dummy:uri</connection>
         <developerConnection>scm:dummy:uri</developerConnection>
     </scm>
-
+    <scm>
+        <connection>scm:git:git@github.com:pvollenweider/bodymovin.git</connection>
+        <developerConnection>scm:git:git@github.com:pvollenweider/bodymovin.git</developerConnection>
+        <url>https://github.com/pvollenweider/bodymovin</url>
+    </scm>
+  
     <repositories>
         <repository>
             <id>jahia-public</id>
