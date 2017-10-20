@@ -1,0 +1,9 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+[jnt:bodymovin] > jnt:content, jmix:basicContent
+ - json (weakreference, picker[type='file']) internationalized < 'jnt:file'
+ - renderer (string,choicelist) = 'svg' autocreated indexed=no < 'svg','canvas','html'
+ - loop (boolean) = 'true'
+ - autoplay (boolean) = 'true'
+ - containerStyle (string) = 'width:100&' indexed=no
+ - containerCssClass (string) indexed=no
